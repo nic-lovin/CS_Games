@@ -24,7 +24,6 @@ public class Solution {
         String s1 = generateLine("1321131112");
         for (int i = 0; i < 39; i++) {
             s1 = generateLine(s1);
-            System.out.println(i);
         }
         System.out.println(s1.length());
     }
