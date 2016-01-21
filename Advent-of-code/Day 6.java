@@ -15,11 +15,7 @@ public class Solution {
                 if (oper == operation.turnOn) newGrid[i][j] = 1;
                 else if (oper == operation.turnOff) newGrid[i][j] = 0;
                 else {
-                    if (newGrid[i][j] == 1) {
-                        newGrid[i][j] = 0;
-                    } else {
-                        newGrid[i][j] = 1;
-                    }
+                    newGrid[i][j] ^= 1; // XOR manne
                 }
             }
         }
