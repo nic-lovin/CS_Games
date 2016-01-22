@@ -51,7 +51,7 @@ public class Solution {
                         Integer.parseInt(xy[3]),
                         oper);
             }
-            //Une fois qu'on a traité toutes les lignes...
+            //Une fois qu'on a traité toutes les lignes, on veut le compte des lumières allumées
             int count = 0;
             for (int i = 0; i < GRID_SIZE; i++) {
                 for (int j = 0; j < GRID_SIZE; j++) {
